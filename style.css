@@ -1,0 +1,39 @@
+/* style.css */
+
+/* Сброс стандартных отступов и полей */
+body, h1, img {
+    margin: 0;
+    padding: 0;
+}
+
+/* Основные стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Стили для заголовка */
+h1 {
+    text-align: center;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Стили для изображений */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto; /* автоцентрирование изображений */
+    border: 5px solid #4a90e2; /* рамка вокруг изображений */
+    border-radius: 10px; /* закругленные углы рамки */
+}
+
+/* Добавление стиля для дженерации эффектов при наведении на изображение */
+img:hover {
+    transform: scale(1.05); /* увеличивает изображение при наведении */
+    transition: transform 0.3s; /* плавный переход */
+}
